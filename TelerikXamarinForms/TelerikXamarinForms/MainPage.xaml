@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerikChart="clr-namespace:Telerik.XamarinForms.Chart;assembly=Telerik.XamarinForms.Chart"
+             xmlns:viewModels="clr-namespace:TelerikXamarinForms.ViewModel;assembly=TelerikXamarinForms"
+					   x:Class="TelerikXamarinForms.MainPage">
+
+  <!--<telerikChart:RadCartesianChart>
+    <telerikChart:RadCartesianChart.BindingContext>
+      <viewModels:CategoricalViewModel/>
+    </telerikChart:RadCartesianChart.BindingContext>
+    <telerikChart:RadCartesianChart.HorizontalAxis>
+      <telerikChart:CategoricalAxis/>
+    </telerikChart:RadCartesianChart.HorizontalAxis>
+    <telerikChart:RadCartesianChart.VerticalAxis>
+      <telerikChart:NumericalAxis/>
+    </telerikChart:RadCartesianChart.VerticalAxis>
+    <telerikChart:RadCartesianChart.Series>
+      <telerikChart:BarSeries ItemsSource="{Binding CategoricalData}">
+        <telerikChart:BarSeries.ValueBinding>
+          <telerikChart:PropertyNameDataPointBinding PropertyName="Value"/>
+        </telerikChart:BarSeries.ValueBinding>
+        <telerikChart:BarSeries.CategoryBinding>
+          <telerikChart:PropertyNameDataPointBinding PropertyName="Category"/>
+        </telerikChart:BarSeries.CategoryBinding>
+      </telerikChart:BarSeries>
+    </telerikChart:RadCartesianChart.Series>
+  </telerikChart:RadCartesianChart>-->
+  
+</ContentPage>
